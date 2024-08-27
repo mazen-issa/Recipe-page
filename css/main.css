@@ -1,0 +1,197 @@
+body {
+  background-color: #f3e5d8;
+  font-family: "Outfit", sans-serif;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container {
+  padding: 15px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 25px;
+}
+.container header {
+  padding: 20px;
+}
+.container header .image {
+  margin-bottom: 30px;
+}
+.container header .image img {
+  border-radius: 25px;
+  width: 100%;
+  height: 50%;
+}
+.container header .text {
+  margin-bottom: 50px;
+}
+.container header .text h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-family: "Young Serif", serif;
+}
+.container header .text p {
+  line-height: 2;
+}
+.container header .preparation {
+  padding: 20px;
+  background-color: #fff7fc;
+  border-radius: 25px;
+}
+.container header .preparation h3 {
+  font-size: 40px;
+  color: #8d236c;
+  margin-bottom: 20px;
+  font-family: "Young Serif", serif;
+}
+.container header .preparation ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.container header .preparation ul li {
+  padding-left: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.container header .preparation ul li p {
+  display: contents;
+  font-weight: normal;
+  line-height: 2;
+}
+.ingredients {
+  padding: 20px;
+}
+.ingredients::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  display: block;
+}
+.ingredients h3 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-family: "Young Serif", serif;
+  color: saddlebrown;
+}
+.ingredients ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  list-style-position: outside;
+}
+.ingredients ul li {
+  margin: 0 0 20px 10px;
+  font-size: 18px;
+  font-weight: normal;
+  padding-left: 20px;
+  line-height: 2;
+}
+.instruction {
+  padding: 20px;
+}
+.instruction::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  display: block;
+}
+.instruction h3 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-family: "Young Serif", serif;
+  color: saddlebrown;
+}
+.instruction ul {
+  list-style-type: decimal;
+  padding-left: 20px;
+  list-style-position: outside;
+}
+.instruction ul li {
+  margin: 0 0 20px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.instruction ul li p {
+  font-weight: normal;
+  display: contents;
+  line-height: 2;
+}
+.nutrition {
+  padding: 20px;
+}
+.nutrition h3 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-family: "Young Serif", serif;
+  color: saddlebrown;
+}
+.nutrition p {
+  line-height: 2;
+}
+.nutrition table {
+  margin-top: 20px;
+  width: 100%;
+}
+.nutrition table tbody tr:not(:last-child) {
+  border-bottom: 1px solid #000;
+  margin-bottom: 5px;
+}
+.nutrition table tbody tr {
+  width: 96%;
+  padding: 20px;
+  display: flex;
+}
+.nutrition table tbody tr td {
+  width: 50%;
+}
+.nutrition table tbody tr .td-color {
+  color: saddlebrown;
+  font-weight: bold;
+}
+li::marker {
+  color: saddlebrown;
+}
+@media (max-width: 768px) {
+  .container {
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+  }
+  .container header {
+    padding: 0 10px 10px;
+  }
+  .container header .image img {
+    border-radius: 0;
+  }
+  .container header .text h2 {
+    font-size: 40px;
+    font-family: "Young Serif", serif;
+  }
+  .ingredients {
+    padding: 10px;
+  }
+  .instruction {
+    padding: 10px;
+  }
+  .nutrition {
+    padding: 10px;
+  }
+  .nutrition table tbody tr {
+    width: 89%;
+  }
+}
